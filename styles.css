@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap");
 /* Base */
 :root {
-  --clr-primary: #29a396;
+  --clr-primary: #f89834;
 }
 
 *,
@@ -48,7 +48,7 @@ body {
 .section::after,
 .section::before {
   content: "";
-  background: url(https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/blur-1.png);
+  background: url(4.png);
   position: absolute;
   width: 400px;
   height: 400px;
@@ -116,7 +116,7 @@ body {
 /* Menu */
 .menu {
   width: 100%;
-  background: linear-gradient(to right, #0e0e0e 70%, #a9faf0);
+  background: linear-gradient(to right, #0e0e0e 70%, #f89834);
   padding: 12px 0;
 }
 
@@ -150,11 +150,11 @@ body {
 
 .nav-item a {
   text-decoration: none;
-  color: #0a0a0a;
+  color: #f89834;
 }
 
 .nav-item:hover a {
-  color: #29a396;
+  color: #f89834;
   transition: 0.3s linear;
 }
 
@@ -284,6 +284,7 @@ body {
   padding: 0px 0;
   border-top: 1px solid #fff;
   text-align: center;
+  background-color: black;
 }
 /* End Footer */
 
@@ -826,7 +827,7 @@ p {
     
     .form-section button {
       padding: 10px;
-      background-color: #138f74;
+      background-color: #f89834;
       color: white;
       border: none;
       border-radius: 6px;
@@ -835,7 +836,7 @@ p {
     }
     
     .info-section h4 {
-      color:#138f74;
+      color:#f89834;
       margin-bottom: 10px;
       font-size:30px;
     }
@@ -863,7 +864,7 @@ p {
     }
     
     .social-icons a:hover {
-      background: #138f74;
+      background: #f89834;
     }
     
     .map iframe {
